@@ -1,0 +1,43 @@
+.WhiteButton {
+    padding: 7px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhiteButtonText {
+    font-weight: 500;
+    color: black;
+}
+
+.WhiteButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none !important;
+}
+
+.WhiteButton:hover .WhiteButtonText {
+    color: white;
+}
+
+.WhiteButton:focus {
+    outline: none !important;
+}
+
+@media screen and (min-width: 601px) {
+    .WhiteButtonText {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .WhiteButtonText {
+        font-size: 14px;
+    }
+}

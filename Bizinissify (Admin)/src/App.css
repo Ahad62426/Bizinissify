@@ -1,0 +1,185 @@
+body
+{
+    background-color: #f4f4f4;
+}
+
+
+   /* COlors Class */ 
+
+.dark
+{
+    background-color: #333333;
+    color: #ffffff;
+}
+.orange
+{
+    background-color: orange !important;
+    color: white !important;
+}
+.orange-text
+{
+    color: orange;
+}
+.light-grey
+{
+    background-color: #cccccc;
+    color: #333333;
+}
+     /* Navbar */
+.navsty
+{
+    color: #333333;
+}
+.navsty:hover{
+    color: orange;
+}
+
+.navbar
+{
+    min-height: 33px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-nav > li > a{
+    padding-top: 6px !important;
+    padding-bottom: 0px !important;
+    height: 30px;
+}
+.navbar-brand
+{
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+    height: 30px;
+}
+.dropdown-menu a{
+    color: #333333 !important;
+}
+.dropdown-menu a:hover{
+    background-color: #cccccc;
+    color: #333333 !important;
+}
+
+    /* Header */
+
+#header
+{
+
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}  
+
+#header .create
+{
+  padding-top: 15px;
+}
+
+    /* Section One */
+
+.breadcrumb a{
+    color: #333333;
+}
+
+  
+       /* Footer */
+
+#footer
+{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;;
+}       
+
+
+         /* Login */
+
+#login
+{
+    margin-top: 70px;
+}         
+
+
+/* Dropdoown */
+
+#menu ul 
+{
+    list-style: none;
+    padding: 0px;
+    
+    
+}
+
+#menu ul li 
+{
+    color: white;
+    text-align: center;
+    list-style: none;
+    line-height: 35px;
+    border-radius: 2px solid white;
+    border-radius: 2px;
+    
+}
+#menu ul li button{
+    text-decoration: none;
+    display: block;
+    color: white;
+    
+}
+#menu ul ul{
+    background-color: #cccccc;
+    position: absolute;
+    opacity: 0.9;
+    display: none;
+    width: 67px;
+}
+#menu ul li:hover > ul 
+{
+    display: block;
+}
+.yes li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.yes li a:hover{
+    
+    color: orange;
+    
+}
+
+/* Modal */
+.Wrapper
+{
+  
+   
+     position:absolute;
+    top: 60%;
+    left: 45%;
+    transform : translate(-50% , -50%);
+    
+    width : 100%;
+    background-color :white;
+    height: 50%;
+    z-index : 101;
+    line-height:10px;
+    
+    flex-wrap :wrap !important;
+    
+}
+.checker
+{
+    padding-left: 500px !important;
+}
+
+   /* UserDetail */
+   .UserDetail_Title
+   {
+       font-size: 15px;
+     
+   }
+   .input_style
+   {
+       width: 60%;
+       height: 35px;
+       border: 1px solid grey;
+       border-radius: 10px;
+   }

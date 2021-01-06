@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>823024032780-2ui2mofqva219aumt32800k7htqev636.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.823024032780-2ui2mofqva219aumt32800k7htqev636</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>823024032780-1e362i7sc6lavobvct53b2cl3n72i5sr.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEt6EowhiFEfMHlaEu5cv0l2IHBQb3m00</string>
+	<key>GCM_SENDER_ID</key>
+	<string>823024032780</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.bizinissify</string>
+	<key>PROJECT_ID</key>
+	<string>bizinissify-cea9d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bizinissify-cea9d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:823024032780:ios:78e06c7cb4872e47bc2229</string>
+	<key>DATABASE_URL</key>
+	<string>https://bizinissify-cea9d.firebaseio.com</string>
+</dict>
+</plist>

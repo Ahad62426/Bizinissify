@@ -1,0 +1,38 @@
+[ 
+    {
+        "id" : 1,
+        "Seller" : "Sellerone",
+         "Buyer" : "buyer1",
+         "posttitle" : "home3",
+         "payment" : "44900$",
+          "date" : "12 july , 2020"
+    },
+    
+    {
+        "id" : 2,
+        "Seller" : "Sellertwo",
+        "Buyer" : "buyer1",
+        "posttitle" : "home3",
+        "payment" : "12999$",
+        
+         "date" : "22 july , 2027"
+    },
+    {
+        "id" : 3,
+        "Seller" : "Sellerthree",
+        "Buyer" : "buyer1",
+        "posttitle" : "home3",
+        "payment" : "12578$",
+        
+         "date" : "28 june , 2077"
+    },
+    {
+        "id" : 4,
+        "Seller" : "Seller",
+        "Buyer" : "buyer1",
+        "posttitle" : "home3",
+        "payment" : "12578$",
+        
+         "date" : "28 june , 2077"
+    }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "img": "./images/house1.jfif",
+    "price": "Rs 200000",
+    "name": "house1",
+    "details": "Franchise Request List Request \n free into by clicking the button \n you agree...",
+    "location": "Ancholi, Karachi Pakistan"
+  },
+  {
+    "img": "./images/house2.jfif",
+    "price": "Rs 200020",
+    "name": "house2",
+    "details": "Franchise Request List Request \n free into by clicking the button \n you agree...",
+    "location": "Ancholi, Karachi Pakistan"
+  },
+  {
+    "img": "./images/house3.jfif",
+    "price": "Rs 200040",
+    "name": "house3",
+    "details": "Franchise Request List Request \n free into by clicking the button \n you agree...",
+    "location": "Ancholi, Karachi Pakistan"
+  },
+  {
+    "img": "./images/house4.jfif",
+    "price": "Rs 200060",
+    "name": "house4",
+    "details": "Franchise Request List Request \n free into by clicking the button \n you agree...",
+    "location": "Ancholi, Karachi Pakistan"
+  }
+]

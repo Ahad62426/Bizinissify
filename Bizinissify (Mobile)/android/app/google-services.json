@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823024032780",
+    "firebase_url": "https://bizinissify-cea9d.firebaseio.com",
+    "project_id": "bizinissify-cea9d",
+    "storage_bucket": "bizinissify-cea9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823024032780:android:118b898c8b77cd03bc2229",
+        "android_client_info": {
+          "package_name": "com.example.bizinissify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823024032780-1e362i7sc6lavobvct53b2cl3n72i5sr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bizinissify",
+            "certificate_hash": "912e614718e4b997f8e94f1bc335e9b58937636d"
+          }
+        },
+        {
+          "client_id": "823024032780-6ad6v0966l7oo7omi2n2csndhbjsu9jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKngM5pnvR0KXfkNlpJG999ag3gafnIuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823024032780-6ad6v0966l7oo7omi2n2csndhbjsu9jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

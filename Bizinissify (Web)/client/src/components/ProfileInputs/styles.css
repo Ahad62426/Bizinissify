@@ -1,0 +1,47 @@
+.ProfileInputs {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid white;
+}
+
+.ProfileInputSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProfileInputTitle {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ProfileInputarrow {
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 601px) {
+    .ProfileInputs {
+        padding: 10px 20px;
+    }
+
+    .extraInnerPadding {
+        padding: 10px 0px;
+    }
+
+    .ProfileInputTitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ProfileInputs {
+        padding: 5px 10px;
+    }
+
+    .extraInnerPadding {
+        padding: 5px 0px;
+    }
+
+    .ProfileInputTitle {
+        font-size: 10px;
+    }
+}

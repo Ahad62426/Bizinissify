@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="dashboard" transform="translate(1 1)">
+    <path id="Path_377" data-name="Path 377" d="M15.417,0H2.917A2.92,2.92,0,0,0,0,2.917v7.5a2.92,2.92,0,0,0,2.917,2.917h12.5a2.92,2.92,0,0,0,2.917-2.917v-7.5A2.92,2.92,0,0,0,15.417,0Zm0,0" fill="none" stroke="#707070" stroke-width="2"/>
+    <path id="Path_378" data-name="Path 378" d="M15.417,213.332H2.917A2.92,2.92,0,0,0,0,216.249v17.5a2.92,2.92,0,0,0,2.917,2.917h12.5a2.92,2.92,0,0,0,2.917-2.917v-17.5A2.92,2.92,0,0,0,15.417,213.332Zm0,0" transform="translate(0 -196.665)" fill="none" stroke="#707070" stroke-width="2"/>
+    <path id="Path_379" data-name="Path 379" d="M292.749,341.332h-12.5a2.92,2.92,0,0,0-2.917,2.917v7.5a2.92,2.92,0,0,0,2.917,2.917h12.5a2.92,2.92,0,0,0,2.917-2.917v-7.5A2.92,2.92,0,0,0,292.749,341.332Zm0,0" transform="translate(-255.665 -314.665)" fill="none" stroke="#707070" stroke-width="2"/>
+    <path id="Path_380" data-name="Path 380" d="M292.749,0h-12.5a2.92,2.92,0,0,0-2.917,2.917v17.5a2.92,2.92,0,0,0,2.917,2.917h12.5a2.92,2.92,0,0,0,2.917-2.917V2.917A2.92,2.92,0,0,0,292.749,0Zm0,0" transform="translate(-255.665)" fill="none" stroke="#707070" stroke-width="2"/>
+  </g>
+</svg>

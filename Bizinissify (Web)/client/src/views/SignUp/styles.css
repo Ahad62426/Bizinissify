@@ -1,0 +1,147 @@
+.SignUpContainer {
+    flex: 1;
+    display: flex;
+    padding: 10px 50px;
+}
+
+.SignUpSections {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpSectionLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.SignUpSectionLeftTitle {
+    font-family: sans-serif;
+}
+
+.TextWithOrangeArrowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.TextWithOrangeArrow {
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);;
+}
+
+.SignUpSectionRight {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.BusinessLetterTextContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"]:checked {
+    background: orange;
+}
+
+.BusinessLetterText {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.SignUpBottomTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 100;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.SignUpBottomTextOrange {
+    font-family: sans-serif;
+    color: orange;
+    font-weight: 100;
+}
+
+.SignUpBottomTextOrange:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 601px) {
+    .SignUpContainer {
+        flex-direction: row;
+        margin: 10px 40px;
+    }
+
+    .SignUpSectionLeftTitle {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .TextWithOrangeArrowContainer {
+        margin: 5px 0px;
+    }
+
+    .TextWithOrangeArrow {
+        margin: 0px 10px;
+        font-size: 18px;
+    }
+
+    .SignUpSectionRight {
+        width: 100%;
+        height: 100%;
+        margin-left: 15%;
+    }
+
+    .BusinessLetterText {
+        font-size: 14px;
+    }
+
+    .SignUpBottomText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .SignUpContainer {
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+
+    .SignUpSectionLeftTitle {
+        font-size: 14px;
+    }
+
+    .TextWithOrangeArrowContainer {
+        margin: 0px;
+    }
+
+    .TextWithOrangeArrow {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    .BusinessLetterText {
+        font-size: 10px;
+    }
+
+    .SignUpBottomText {
+        font-size: 12px;
+    }
+}

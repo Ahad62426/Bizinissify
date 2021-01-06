@@ -1,0 +1,84 @@
+.Footer {
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.FooterLogoAndImagesContainer {
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.FooterImagesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FooterImages {
+    height: 40%;
+    width: 40%;
+}
+
+.FooterTabsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.FooterTabsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterTabBold {
+    color: white;
+    font-weight: 700;
+    margin: 2.5px 0px;
+}
+
+.FooterTab {
+    margin: 2.5px 0px;
+}
+
+.FooterTab:hover {
+    color: orange;
+}
+
+@media screen and (min-width: 601px) {
+    .FooterLogoAndImagesContainer {
+        margin-bottom: 30px;
+    }
+
+    .FooterImages {
+        margin-left: 40px;
+    }
+
+    .FooterTabsSection {
+        font-size: 16px;
+    }
+
+    .FooterTab:hover {
+        margin: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .FooterLogoContainer {
+        width: 15%;
+    }
+
+    .FooterImages {
+        margin-left: 10px;
+    }
+
+    .FooterTabsSection {
+        font-size: 6px;
+    }
+}

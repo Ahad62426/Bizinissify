@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "97e20121-e87a-42e3-964f-00617410e483",
+		"name": "Bizinissify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Profile",
+			"item": [
+				{
+					"name": "Create Profile",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"<firebase_uid>\",\n    \"name\": \"Ahad\",\n    \"lastName\": \"Shah\",\n    \"email\": \"ahads62426@gmail.com\",\n    \"buyerNews\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://bizinissify.herokuapp.com/createAccount",
+							"protocol": "https",
+							"host": [
+								"bizinissify",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"createAccount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://bizinissify.herokuapp.com/getProfile",
+							"protocol": "https",
+							"host": [
+								"bizinissify",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"getProfile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"lastName\": \"Shah S\",\n    \"altEmail\": \"ahad62426@gmail.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://bizinissify.herokuapp.com/createAccount?",
+							"protocol": "https",
+							"host": [
+								"bizinissify",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"createAccount"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,36 @@
+.TextButton {
+    background: none;
+    border: none;
+}
+
+.TextButton:hover {
+    outline: none !important;
+}
+
+.TextButton:focus {
+    outline: none !important;
+}
+
+.BlackTextButton {
+    color: black;
+}
+
+.OrangeTextButton {
+    color: orange;
+}
+
+.OrangeTextButton:hover {
+    color: black;
+}
+
+@media screen and (min-width: 601px) {
+    .TextButton {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .TextButton {
+        font-size: 18px;
+    }
+}

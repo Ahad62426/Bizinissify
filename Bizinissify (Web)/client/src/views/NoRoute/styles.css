@@ -1,0 +1,20 @@
+.NoDataToShow {
+    width: 100%;
+    background-color: rgb(255, 230, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) {
+    .NoDataToShow {
+        min-height: 25vh;
+        margin-top: 31.5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .NoDataToShow {
+        min-height: 56vh;
+    }
+}

@@ -1,0 +1,32 @@
+[ 
+    
+     {
+        "id" : 1,
+        "title" : "Burera",
+         "email" : "burera@gmail.com",
+         "phone" : "021-333333",
+         "post" : "44",
+         "action" : "X",
+         "joining" : "12 july , 2020"
+    },
+    
+    {
+        "id" : 2,
+        "title" : "Afera",
+         "email" : "burerakhan@gmail.com",
+         "phone" : "021-777777",
+         "post" : "12",
+         "action" : "X",
+         "joining" : "22 july , 2027"
+    },
+    {
+        "id" : 3,
+        "title" : "Ayesha",
+         "email" : "burerabiya@gmail.com",
+         "phone" : "021-6666666",
+         "post" : "52",
+         "action" : "X",
+         "joining" : "23 july , 2023"
+    }
+    
+]

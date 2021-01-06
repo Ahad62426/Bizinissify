@@ -1,0 +1,62 @@
+[ 
+    {
+        "id" : 1,
+        "title" : "Burera",
+         "email" : "burera@gmail.com",
+         "phone" : "021-333333",
+         "action" : "X",
+         "joining" : "12 july , 2020",
+         "post": [
+            {
+                "id": 1,
+                "title" : "Post 1",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            },
+            {
+                "id": 2,
+                "title" : "Post 2",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            },
+            {
+                "id": 3,
+                "title" : "Post 3",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            }
+         ]
+    },
+    
+    {
+        "id" : 2,
+        "title" : "Afera",
+         "email" : "burerakhan@gmail.com",
+         "phone" : "021-777777",
+         "action" : "X",
+         "joining" : "22 july , 2027",
+         "post": [
+            {
+                "id": 1,
+                "title" : "Post 1",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            },
+            {
+                "id": 2,
+                "title" : "Post 2",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            },
+            {
+                "id": 3,
+                "title" : "Post 3",
+                "details": "hghghygyhgygyguy bvhgvyvtyftftv"
+            }
+         ]
+    },
+    {
+        "id" : 3,
+        "title" : "Ayesha",
+         "email" : "burerabiya@gmail.com",
+         "phone" : "021-6666666",
+         "action" : "X",
+         "joining" : "23 july , 2023",
+         "post": []
+    }
+]

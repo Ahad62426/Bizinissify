@@ -1,0 +1,199 @@
+.ProfileTabsContainer {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+
+.ProfileTabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: none;
+    border: none;
+}
+
+.ProfileTabs:focus {
+    outline: none !important;
+    border: none;
+}
+
+.ProfileTabs:hover {
+    cursor: pointer;
+    outline: none !important;
+    border: none;
+}
+
+.ProfileTabs:hover .ProfileTabText {
+    color: orange;
+}
+
+.ProfileTabs:focus .ProfileTabText {
+    color: rgba(0, 0, 0, 0.7);;
+}
+
+.ProfileTabText {
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ProfileContentContainer {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ProfileLeftSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ProfileLeftSections {
+    word-wrap: break-word;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ProfileLeftSubSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ProfileLeftSectionsText {
+    font-weight: 100;
+}
+
+.ProfileLeftSectionsText:hover, .ProfileLeftSectionsSubText:hover {
+   cursor: pointer;
+}
+
+.selectedTab {
+    font-weight: 600;
+}
+
+.selectedSubTab {
+    color: orange;
+    font-weight: 700;
+}
+
+.ProfileRightSectionContainer {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.ProfileRightSubText {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ProfileInputsContainer {
+    width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+    .ProfileTabsContainer {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+
+    .ProfileTabIcon {
+        margin-bottom: 15px;
+    }
+
+    .ProfileTabText {
+        font-size: 16px;
+    }
+
+    .ProfileLeftSectionContainer {
+        width: 20%;
+        padding-right: 20px;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+    }
+
+    .ProfileLeftSections {
+        padding: 15px 0px;
+        font-size: 18px;
+    }
+
+    .ProfileLeftSectionsSeparator {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .ProfileLeftSubSectionsContainer {
+        margin-top: 10px;
+    }
+
+    .ProfileLeftSectionsSubText {
+        margin: 5px 10px;
+        font-size: 16px;
+    }
+
+    .ProfileRightSectionContainer {
+        margin: 0px 20px;
+    }
+
+    .ProfileRightSubText {
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .ProfileInputsContainer {
+        margin: 20px 0px 10px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ProfileTabsContainer {
+        padding: 5px 5px;
+        margin-bottom: 5px;
+    }
+
+    .ProfileTabIcon {
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .ProfileTabText {
+        font-size: 8px;
+    }
+
+    .ProfileLeftSectionContainer {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .ProfileLeftSections {
+        padding: 0px 5px;
+        font-size: 8px;
+    }
+
+    .ProfileLeftSectionsSeparator {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .ProfileLeftSubSectionsContainer {
+        margin-top: 5px;
+    }
+
+    .ProfileLeftSectionsSubText {
+        margin: 2px 5px;
+    }
+
+    .ProfileLeftSubSectionArrow {
+        width: 8%;
+    }
+
+    .ProfileRightSubText {
+        font-size: 8px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .ProfileInputsContainer {
+        margin: 10px 0px 5px 0px;
+    }
+}

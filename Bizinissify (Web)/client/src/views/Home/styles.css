@@ -1,0 +1,399 @@
+.HomeContainer {
+    width: 100%;
+    background-image: url('../../assets/SVG/bg_image.svg');
+    background-color: rgba(0, 0, 0, 0.9);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeUpBody {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeUpBody .HomeTitle {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin: 0 auto 30px auto;
+}
+
+.HomeUpMiddle {
+    max-height: 80vw;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.HomeUpMiddle .HomeTitle {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.HomeInputsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HomeInputContainer {
+    width: 49%;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    display: flex;
+}
+
+.HomeInput {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+}
+
+.HomeInput:focus {
+    outline: none !important;
+    border: 2px solid orange;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.HomeSearchButtonsContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.HomeAdvanceSearchText {
+    font-family: 'sans-serif';
+}
+
+.HomeAdvanceSearchText:hover {
+    color: white;
+}
+
+.HomeSearchButton {
+    padding: 10px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: orange;
+    border-radius: 7px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeSearchButtonText {
+    font-family: 'sans-serif';
+    color: white;
+}
+
+.HomeSearchButton:hover {
+    border-color: orange;
+    background-color: white;
+}
+
+.HomeSearchButton:hover .HomeSearchButtonText {
+    color: orange;
+}
+
+.HomePartners {
+    width: 100vw;
+    padding: 5px;
+    background-color: rgba(255 , 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.SellYourBusinessSection {
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.SellYourBusinessTextContainer {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.LearnMoreSellBusiness {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #719ECE;
+}
+
+.TopFranchise {
+    width: 100%;
+    background-color: rgb(255, 230, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.TopFranchiseContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Franchise {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.HomeBrokersSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HoneBrokersText {
+    margin-top: -10px;
+    width: 100%;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 8px;
+    color: orange;
+}
+
+.HoneBrokersText:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.HomeBrokersContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HomeBrokers {
+    width: 22%;
+    height: 18vw;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeBrokerImage {
+    width: 50%;
+    height: 50%;
+}
+
+.HomeBrokerTextContainer {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.HomeBrokerDesignation {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 601px) {
+    .HomeContainer {
+        height: 100vh;
+    }
+
+    .HomeUpBody {
+        margin-top: 70px;
+    }
+
+    .HomeUpBody .HomeTitle {
+        font-size: 32px;
+    }
+
+    .HomeUpMiddle {
+        width: 35%;
+        padding: 25px;
+    }
+
+    .HomeUpMiddle .HomeTitle {
+        font-size: 24px;
+    }
+
+    .HomeInput {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .SellYourBusinessSection {
+        width: 70%;
+        margin: 50px 0px;
+        padding: 20px 10px;
+    }
+
+    .SellYourBusinessTextContainer {
+        width: 55%;
+        margin: 10px 0px 20px 0px;
+        font-size: 16px;
+    }
+
+    .LearnMoreSellBusiness {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .TopFranchise {
+        padding: 20px;
+    }
+
+    .Franchise {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .HomeBrokersSection {
+        margin: 30px 0px;
+    }
+
+    .HoneBrokersText {
+        margin-top: -30px;
+        font-size: 16px;
+    }
+
+    .HomeBrokersContainer {
+        margin: 50px 0px 10px 0px;
+    }
+
+    .HomeBrokerImage {
+        margin-top: -30px;
+    }
+
+    .HomeBrokerTitle {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .HomeBrokerDesignation {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .HomeBrokerLocation {
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .HomeUpBody {
+        margin-top: 40px;
+    }
+
+    .HomeUpBody .HomeTitle {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .HomeUpMiddle {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .HomeUpMiddle .HomeTitle {
+        font-size: 16px;
+    }
+
+    .HomeInput {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .SellYourBusinessSection {
+        width: 80%;
+        margin: 20px 0px;
+        padding: 10px 5px;
+    }
+
+    .SellYourBusinessTextContainer {
+        width: 80%;
+        margin: 5px 0px 10px 0px;
+        font-size: 12px;
+    }
+
+    .LearnMoreSellBusiness {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .TopFranchise {
+        padding: 10px;
+    }
+
+    .Franchise {
+        margin: 5px;
+        font-size: 8px;
+    }
+
+    .HomeBrokersSection {
+        margin: 10px 0px;
+    }
+
+    .HoneBrokersText {
+        margin-top: -10px;
+        font-size: 8px;
+    }
+
+    .HomeBrokersContainer {
+        margin: 15px 0px 10px 0px;
+    }
+
+    .HomeBrokerImage {
+        margin-top: -10px;
+    }
+
+    .HomeBrokerTitle {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .HomeBrokerDesignation {
+        font-size: 8px;
+    }
+
+    .HomeBrokerLocation {
+        margin-top: 2px;
+        font-size: 8px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

@@ -1,0 +1,19 @@
+.ProfileSectionsContainer {
+    background-color: white;
+    display: flex;
+}
+
+@media screen and (min-width: 601px) {
+    .ProfileSectionsContainer {
+        flex-direction: row;
+        padding: 10px 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .ProfileSectionsContainer {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+}
